@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+#results {
+  display: none;
+	width: 204px;
+	/*display: absolute;*/
+	border: 1px solid #c0c0c0;
+}*/
+
+#results .item {
+	padding: 3px;
+	font-family: Helvetica;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+#results .item:last-child {
+	border-bottom: 0px;
+}
+
+#results .item:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+
+/*** IMAGES IN THE SMALLICONS FOLDER ***/
+img[src="./img/smallicons/remotedial.png"]{
+	width: 25px;
+	height: 26px;
+}
+img[src="./img/smallicons/cellphone1.png"]{
+	width: 25px;
+	height: 27px;
+}
+img[src="./img/smallicons/cellphone2.png"]{
+	width: 25px;
+	height: 27px;
+}
+img[src="./img/smallicons/mail-closed.png"]{
+	width: 35px;
+	height: 25px;
+}
+img[src="./img/smallicons/mail-open.png"]{
+	width: 35px;
+	height: 25px;
+}
+img[src="./img/smallicons/phone.png"]{
+	width: 25px;
+	height: 27px;
+}
+img[src="./img/smallicons/text.png"]{
+	width: 32px;
+	height: 25px;
+}
+img[src="./img/smallicons/find.png"]{
+	width: 32px;
+	height: 25px;
+}
+img[src="./img/smallicons/heirarchy.png"]{
+	width: 35px;
+	height: 25px;
+}
+/***** CLEARDIV - FOR FLOATS *********/
+/*************************************/
+.cleardiv {
+	clear:both;
+}
+.clearfix:before, .clearfix:after
+{
+	content: "";
+	display: table;
+}
+.clearfix:after
+{
+	clear: both;
+}
+.clearfix { zoom: 1; }
+
+.showblackborder {
+	border:thin solid black; /*border for design layout*/
+	
+}

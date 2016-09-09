@@ -1,0 +1,12 @@
+RewriteEngine On
+
+#substitution url first, url to substitute second
+#NC - case insensitive
+#L - stop looking for match after this one is found
+RewriteRule ^index/?$ index.php [NC,L]
+RewriteRule ^signup/?$ signup.php [NC,L]
+RewriteRule ^customer_callin/?$ customer_callin.php [NC,L]
+RewriteRule ^driver-login/?$ driver-login.php [NC,L]
+RewriteRule ^agent_login/?$ agent_login.php [NC,L]
+RewriteRule ^driver-dashboard/?$ driver-dashboard.php [NC,L]
+RewriteRule ^driver-logout/?$ driver-logout.php [NC,L]
